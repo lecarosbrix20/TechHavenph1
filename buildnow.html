@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shop.css" />
+</head>
+<div class ="container"></div>
+<!--header section-->
+<body>
+<header>
+  <div id="header">
+    <div class="header-logo">
+      <a href="indext.html"><img src="images/logo.png" alt="" /></a>
+    </div>
+    <div class="header-list">
+      <nav class="header-list-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="" href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="header-list-icon">
+        <a href=""><i class="computerset"></i></a>
+      </div>
+      <div id="search">
+        <i class="fas fa-search search"></i>
+        <input type="text" id="input" name="searchBox" placeholder="Search your computer needs">
+    </div>
+
+    <body>
+      
+      <!-- slider JS START -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+      <script>
+          $(document).ready(function()
+          {
+          $('#containerSlider').slick({
+              dots: true,
+              infinite: true,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 1500,
+              });
+          });
+      </script>
+    </body>
+</body>
+</html>
