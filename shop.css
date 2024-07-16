@@ -47,13 +47,32 @@ p {
     text-align: center;
     position: absolute;
 */
+.header-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right:40vh;
+  margin-top:2vh;
+}
+
+.header-list-icon a {
+  color: #3b5998; /* Facebook blue color */
+  font-size: 24px; /* Size of the icon */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.header-list-icon a:hover {
+  color: #2d4373; /* Slightly darker blue on hover */
+}
+
 .search {
   padding: 8px; /* Adjust padding to make the search bar smaller */
   color: rgb(0, 0, 0);
   min-width: 100px; /* Set a minimum width for the search bar */
   text-align: center;
   position: absolute;
-  left: 69.5%; /* Move the search bar to the center horizontally */
+  left: 73%;  /* Move the search bar to the center horizontally */
   transform: translateX(-50%); /* Center the search bar using transform */
   bottom: 35%;
 }

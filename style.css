@@ -54,10 +54,69 @@ p {
   min-width: 100px; /* Set a minimum width for the search bar */
   text-align: center;
   position: absolute;
-  left: 69.5%; /* Move the search bar to the center horizontally */
+  left: 73%; /* Move the search bar to the center horizontally */
   transform: translateX(-50%); /* Center the search bar using transform */
   bottom: 35%;
 }
+
+
+.header-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right:40vh;
+  margin-top:2vh;
+}
+
+.header-list-icon a {
+  color: #3b5998; /* Facebook blue color */
+  font-size: 24px; /* Size of the icon */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.header-list-icon a:hover {
+  color: #2d4373; /* Slightly darker blue on hover */
+}
+/* About Us Section */
+#about-us {
+  background-color: #f4f4f4; /* Light grey background */
+  padding: 50px 0; /* Vertical padding */
+  text-align: center; /* Center text */
+  margin-top: 1in;
+}
+
+#about-us .container {
+  max-width: 800px; /* Limit width of the content */
+  margin: 0 auto; /* Center align the container */
+  padding: 0 20px; /* Horizontal padding */
+  margin-top: 2px;
+}
+
+#about-us h1 {
+  font-family: 'Arial', sans-serif; /* Font family for the heading */
+  font-size: 36px; /* Font size for the heading */
+  color: #000000; /* Dark text color */
+  margin-top: 2vh;
+  margin-bottom: 3vhx; /* Space below the heading */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Spacing between letters */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow effect */
+}
+
+#about-us p {
+  font-family: 'Verdana', sans-serif; /* Font family for paragraphs */
+  font-size: 18px; /* Font size for paragraphs */
+  color: #000000; /* Grey text color */
+  line-height: 1.6; /* Line height for better readability */
+  margin-bottom: 20px; /* Space below each paragraph */
+  text-align: justify; /* Justify text for better alignment */
+}
+
+#about-us p:last-child {
+  margin-bottom: 0; /* Remove space below the last paragraph */
+}
+
 
 
 #input 
@@ -221,6 +280,41 @@ body {
     /* Active effect */
     #hero button:active {
       opacity: 0.2; /* Reduce opacity when button is clicked */
+    }
+    #footer{
+      display: flex;
+      align-items:flex-start;
+      justify-content: space-between;
+      padding: 75px;
+      background-color: #ececec;
+    }
+    
+    #footer p, #footer a{
+      color: rgb(109, 109, 109);
+      text-decoration: none;
+    }
+    #footer a:hover{
+      color:#088178;
+    }
+    #footer .about a{
+      display: block;
+      padding:8px 0;
+    }
+    #footer .myaccount a{
+      display: block;
+      padding:8px 0;
+    }
+    #footer .download img{
+      border: 1px solid #08817969;
+      border-radius: 7px;
+    }
+    
+    @media(max-width: 1090px)
+    {
+        #search
+        {
+            display: none;
+        }
     }
     
   
